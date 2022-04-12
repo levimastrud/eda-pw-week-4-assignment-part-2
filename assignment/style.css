@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.head {
+    background-color:skyblue;
+}
+.info {
+    background-color: peachpuff;
+    color:rebeccapurple;
+    text-shadow: 5px 5px 5px white;
+}
+.carDetails {
+    background-color: peachpuff;
+    color:rebeccapurple;
+}
+.assignment {
+    background-color: tomato;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    text-emphasis-style: '点';
+}
+.button{
+    color: white;
+    background-color: skyblue;
+    border-radius: 25px;
+    margin: 10px;
+    height: 80px;
+}
+.button #press{
+    display: none;
+}
+.button:active #noPress {
+    display: none;
+}
+.button:active #press {
+    display: contents;
+}
